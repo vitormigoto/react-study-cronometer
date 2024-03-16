@@ -4,7 +4,6 @@ import style from './Formulario.module.scss';
 import ITarefa from '../../types/tarefa';
 import {v4 as uuidv4} from 'uuid';
 
-
 interface Props{
     setTarefas: React.Dispatch<React.SetStateAction<ITarefa[]>>    
 }
